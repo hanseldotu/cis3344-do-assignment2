@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*Centers Table Title*/
+        p {
+            text-align: center;
+        }
+
+        /*Make table stretch entire window*/
+        table {
+            width: 100%;
+        }
+
+        /*Center all cell text and apply spaced border*/
+        th, td {
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        /*Change cell colors when mouse is over them*/
+        th:hover, td:hover {
+            background-color: #f9f9f9;
+        }
+    </style>
+    <title>Weekly Class Schedule</title>
+</head>
+<body>
+    <h1>Weekly Class Schedule</h1>
+    <p>
+        <!--Table Title-->
+        Class Schedule for Fall 2024
+
+        <!--Table for Hansel's Schedule-->
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Course Name</th>
+                <th>Instructor</th>
+                <th>Room Number</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>5:30 - 8:00</td>
+                <td>IT Process Management</td>
+                <td>Vana Khurana</td>
+                <td>Room 0401B</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Tuesday</td>
+                <td>11:00 - 12:30</td>
+                <td>Client-Side Scripting</td>
+                <td>Mounika R. Hospet</td>
+                <td>Room 307AB</td>
+            </tr>
+            <!--Row 2 of Tuesday-->
+            <tr>
+                <td>12:30 - 2:00</td>
+                <td>OS and Networking</td>
+                <td>Claudia Pine-Simon</td>
+                <td>Room 401B</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>11:00 - 12:00</td>
+                <td>CST Transfer Seminar</td>
+                <td>Jessica Cox</td>
+                <td>Room 0305A</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Thursday</td>
+                <td>11:00 - 12:30</td>
+                <td>Client-Side Scripting</td>
+                <td>Mounika R. Hospet</td>
+                <td>Room 307AB</td>
+            </tr>
+            <!--Row 2 of Thursday-->
+            <tr>
+                <td>12:30 - 2:00</td>
+                <td>OS and Networking</td>
+                <td>Claudia Pine-Simon</td>
+                <td>Room 401B</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Friday</td>
+                <td>1:00 - 3:00</td>
+                <td>Client-Side Scripting</td>
+                <td>Mounika R. Hospet</td>
+                <td>Room 137</td>
+            </tr>
+            <!--Row 2 of Friday-->
+            <tr>
+                <td>3:00 - 5:00</td>
+                <td>OS and Networking</td>
+                <td>Claudia Pine-Simon</td>
+                <td>Room 206</td>
+            </tr>
+            <!--Row 3 of Friday-->
+            <tr>
+                <td colspan="4">Office Hours</td>
+            </tr>
+        </table>
+        <!--Opens link to Temple's courses in new tab-->
+        <br><b>Information about the courses can be found <a href="https://bulletin.temple.edu/undergraduate/courses/cis/" target="_blank">here</a></b>
+    </p>
+</body>
+</html>
